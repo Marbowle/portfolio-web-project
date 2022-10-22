@@ -22,12 +22,11 @@ h1 {
   font-size: 72px;
   line-height: 1.5;
 }
-p{
+p {
   color: white;
-  font-weight:  regular;
+  font-weight: regular;
   font-size: 18px;
   line-height: 30px;
-
 }
 .hero {
   text-align: center;
@@ -44,8 +43,32 @@ p{
   font-weight: bold;
   line-height: 2;
 }
-.about-section{
-  padding: 40px;
+.content-container {
+  padding: 160px 20px;
+}
+.content h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.content h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+
+.content h3 {
+  font-size: 24px;
+  line-height: 1.5;
+
+  font-family: var(--default-font-family);
+}
+
+.content p {
+  font-size: 14px;
+}
+
+.content {
+  margin: 30px;
 }
 .btn-branding {
   background-color: var(--secondary-color);
@@ -65,19 +88,19 @@ p{
     font-size: 44px;
     line-height: 56px;
   }
-  h2{
+  h2 {
     font-size: 30px;
   }
- 
+
   .hero {
     text-align: center;
     padding: 100px 20px;
   }
- .icon{
-  font-size: 25px;
- }
- .about-section {
-  text-align: center;
-  padding: 0;
- }
+  .icon {
+    font-size: 25px;
+  }
+  .content {
+    text-align: center;
+    padding: 0;
+  }
 }
