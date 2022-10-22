@@ -22,7 +22,13 @@ h1 {
   font-size: 72px;
   line-height: 1.5;
 }
+p{
+  color: white;
+  font-weight:  regular;
+  font-size: 18px;
+  line-height: 30px;
 
+}
 .hero {
   text-align: center;
   padding: 160px 423px;
@@ -37,6 +43,9 @@ h1 {
   font-size: 24px;
   font-weight: bold;
   line-height: 2;
+}
+.about-section{
+  padding: 40px;
 }
 .btn-branding {
   background-color: var(--secondary-color);
@@ -53,13 +62,22 @@ h1 {
 }
 @media (max-width: 900px) {
   h1 {
-    font-size: 60px;
+    font-size: 44px;
+    line-height: 56px;
   }
+  h2{
+    font-size: 30px;
+  }
+ 
   .hero {
     text-align: center;
     padding: 100px 20px;
   }
  .icon{
   font-size: 25px;
+ }
+ .about-section {
+  text-align: center;
+  padding: 0;
  }
 }
