@@ -29,39 +29,61 @@
     <title>Marta Domagała | Front-end developer</title>
   </head>
   <body>
-   <div class="content-container container">
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/"> <h4>MD</h4></a>
+        <ul>
+          <li>
+            <a href="/" title="Homepage">Home</a>
+          </li>
+          <li>
+            <a href="/about.html" title="About Marta">About</a>
+          </li>
+          <li class="active">
+            <a href="/work.html" title="Marta's projects">Projects</a>
+          </li>
+          <li>
+            <a href="/contact.html" title="Contact with Marta">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="content-container container">
       <div class="content">
         <h1 class="mb-5">Take a look at what I've been working on!</h1>
 
-        <div class="row">
-          <div class="col-md-6 mb-4">
-           <img src="" alt="">
-            <h3 class="text-center m-0">Yogurt Project</h3>
-            <p class="text-center text-muted">Built with HTML and CSS</p>
+       <div class="container">
+        <div class="row mb-5">
+          <div class="col d-none d-lg-block">
+            <img src="/images/weatherApp.png" class="img-fluid" alt="Weather App">
           </div>
-          <div class="col-md-6 mb-4">
-            <img src="" alt="">
-            <h3 class="text-center m-0">Weather Project</h3>
-            <p class="text-center text-muted">
-              Built with HTML, CSS and JavaScript
-            </p>
-          </div>
-          <div class="col-md-6 mb-4">
-          <img src="" alt="">
-            <h3 class="text-center m-0">Dictionary App</h3>
-            <p class="text-center text-muted">
-              Built with HTML, CSS with React
-            </p>
-          </div>
-          <div class="col-md-6 mb-4">
-           <img src="" alt="">
-            <h3 class="text-center m-0">Translation App</h3>
-            <p class="text-center text-muted">
-              Built with HTML, CSS with React
-            </p>
+          <div class="col">
+            <div class="project-description">
+              <h2 class="mb-5">Weather App</h2>
+              <p class="mb-5">It's a project built with HTML, CSS and JavaScript</p>
+              <a href="https://tubular-yeot-76685d.netlify.app/" class="btn btn-branding">See this project</a>
+            </div>
           </div>
         </div>
+       </div>
+    <footer class="container">
+      <div class="social-links d-flex justify-content-center mb-5">
+        <a
+          href="https://www.linkedin.com/in/marta-domaga%C5%82a-684a73232/"
+          target="_blank"
+        >
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="https://www.instagram.com/woman_codinglife/" target="_blank">
+          <i class="fa-brands fa-instagram"></i
+        ></a>
+        <a href="https://github.com/Marbowle" target="_blank">
+          <i class="fa-brands fa-github"></i
+        ></a>
+        <a href="https://www.facebook.com/marta.domagala2" target="_blank"
+          ><i class="fa-brands fa-facebook"></i>
+        </a>
       </div>
-    </div>
+    </footer>
   </body>
 </html>
