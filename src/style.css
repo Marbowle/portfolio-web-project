@@ -1,12 +1,12 @@
 :root {
-  --branding-color: black;
+  --branding-color: #f65282;
   --secondary-color: #ffffff;
   --heading-font-family: "Roboto", sans-serif;
   --defult-font-family: "Montserrat", sans-serif;
 }
 body {
   font-family: var(--defult-font-family);
-  background: var(--branding-color);
+  background: black;
 }
 h1,
 h2,
@@ -30,7 +30,7 @@ p {
 }
 .hero {
   text-align: center;
-  padding: 160px 423px;
+  padding: 130px 423px;
 }
 .hero p {
   font-size: 18px;
@@ -79,31 +79,43 @@ p {
   font-weight: 14px;
   padding: 18px 30px;
 }
-nav{
+.btn-branding:hover{
+  background: var(--branding-color);
+}
+nav {
   padding: 20px 0;
 }
-nav ul{
+nav ul {
   padding: 0;
   margin: 0;
 }
-nav li{
+nav li {
   display: inline;
   list-style: none;
   line-height: 42px;
   margin-left: 15px;
 }
-nav a{
+nav a {
   text-decoration: none;
   color: var(--secondary-color);
   transition: all 100ms ease-in-out;
 }
 nav a:hover,
-nav li.active a{
- color:#F65282;
+nav li.active a {
+  color: #f65282;
 }
-.footer {
-  text-align: center;
-  font-size: 40px;
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background: #282323;
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 20px;
+  transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: var(--secondary-color);
 }
 @media (max-width: 900px) {
   h1 {
